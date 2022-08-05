@@ -5,6 +5,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 	<title>Quiz-box</title>
 </head>
 
@@ -48,61 +52,73 @@
 						<h2 class="title title--new">Новинки недели</h2>
 						<ul class="news__list">
 							<li class="card news__card">
-								<img src="./img/music.png" alt="" class="card__img">
-								<h3 class="card__title">Музыкальная игра</h3>
-								<ul class="card__list">
-									<li class="card__item">
-										<img src="./img/time.png" alt="" class="card__icon">
-										<div class="card__text">90 минут</div>
-									</li>
-									<li class="card__item">
-										<img src="./img/qa.png" alt="" class="card__icon">
-										<div class="card__text">70 вопросов</div>
-									</li>
-								</ul>
-								<p class="card__about">
-									Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
-									массового участия
-								</p>
-								<a href="#" class="card__button">Смотреть</a>
+								<div class="card__header">
+									<img src="./img/music.png" alt="" class="card__img">
+								</div>
+								<div class="card__content">
+									<h3 class="card__title">Музыкальная игра</h3>
+									<ul class="card__list">
+										<li class="card__item">
+											<img src="./img/time.png" alt="" class="card__icon">
+											<div class="card__text">90 минут</div>
+										</li>
+										<li class="card__item">
+											<img src="./img/qa.png" alt="" class="card__icon">
+											<div class="card__text">70 вопросов</div>
+										</li>
+									</ul>
+									<p class="card__about">
+										Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
+										массового участия
+									</p>
+									<a href="#" class="card__button">Смотреть</a>
+								</div>
 							</li>
 							<li class="card news__card">
-								<img src="./img/back.png" alt="" class="card__img">
-								<h3 class="card__title">Назад в 90-е</h3>
-								<ul class="card__list">
-									<li class="card__item">
-										<img src="./img/time.png" alt="" class="card__icon">
-										<div class="card__text">90 минут</div>
-									</li>
-									<li class="card__item">
-										<img src="./img/qa.png" alt="" class="card__icon">
-										<div class="card__text">70 вопросов</div>
-									</li>
-								</ul>
-								<p class="card__about">
-									Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
-									массового участия
-								</p>
-								<a href="#" class="card__button card__button--dark">Смотреть</a>
+								<div class="card__header">
+									<img src="./img/back.png" alt="" class="card__img">
+								</div>
+								<div class="card__content">
+									<h3 class="card__title">Назад в 90-е</h3>
+									<ul class="card__list">
+										<li class="card__item">
+											<img src="./img/time.png" alt="" class="card__icon">
+											<div class="card__text">90 минут</div>
+										</li>
+										<li class="card__item">
+											<img src="./img/qa.png" alt="" class="card__icon">
+											<div class="card__text">70 вопросов</div>
+										</li>
+									</ul>
+									<p class="card__about">
+										Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
+										массового участия
+									</p>
+									<a href="#" class="card__button">Смотреть</a>
+								</div>
 							</li>
 							<li class="card news__card">
-								<img src="./img/it.png" alt="" class="card__img">
-								<h3 class="card__title">IT-викторина</h3>
-								<ul class="card__list">
-									<li class="card__item">
-										<img src="./img/time.png" alt="" class="card__icon">
-										<div class="card__text">90 минут</div>
-									</li>
-									<li class="card__item">
-										<img src="./img/qa.png" alt="" class="card__icon">
-										<div class="card__text">70 вопросов</div>
-									</li>
-								</ul>
-								<p class="card__about">
-									Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
-									массового участия
-								</p>
-								<a href="#" class="card__button">Смотреть</a>
+								<div class="card__header card__header--background">
+									<img src="./img/it.png" alt="" class="card__img">
+								</div>
+								<div class="card__content">
+									<h3 class="card__title">IT-викторина</h3>
+									<ul class="card__list">
+										<li class="card__item">
+											<img src="./img/time.png" alt="" class="card__icon">
+											<div class="card__text">90 минут</div>
+										</li>
+										<li class="card__item">
+											<img src="./img/qa.png" alt="" class="card__icon">
+											<div class="card__text">70 вопросов</div>
+										</li>
+									</ul>
+									<p class="card__about">
+										Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем
+										массового участия
+									</p>
+									<a href="#" class="card__button">Смотреть</a>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -112,7 +128,7 @@
 						<h2 class="title">Прошедшие игры</h2>
 						<ul class="past-games__list">
 							<li class="past-games__slide slide">
-								<img src="./img/picture2.png" alt="" class="slide__background">
+								<img src="./img/picture1.png" alt="" class="slide__background">
 								<div class="slide__content">
 									<time class="slide__date" datetime="2022-01-01">1 января</time>
 									<h3 class="slide__title">Новогодний квиз</h3>
@@ -127,7 +143,7 @@
 									<time class="slide__date" datetime="2022-03-08">8 марта</time>
 									<h3 class="slide__title">Весенняя игра</h3>
 									<p class="text slide__text">
-										Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!
+										Успевайте забронировать даты. Пока еще есть места на март. Удачи и всех благ!
 									</p>
 								</div>
 							</li>
@@ -135,13 +151,27 @@
 						<div class="paginator">
 							<div class="paginator__display">Страница 1 из 7</div>
 							<ul class="paginator__list">
-								<li class="paginator__item paginator__item--current">1</li>
-								<li class="paginator__item">2</li>
-								<li class="paginator__item">3</li>
-								<li class="paginator__item">4</li>
-								<li class="paginator__item">5</li>
-								<li class="paginator__item">6</li>
-								<li class="paginator__item">7</li>
+								<li class="paginator__item paginator__item--current">
+									<a href="#" class="paginator__link">1</a>
+								</li>
+								<li class="paginator__item">
+									<a href="#" class="paginator__link">2</a>
+								</li>
+								<li class="paginator__item">
+									<a href="#" class="paginator__link">3</a>
+								</li>
+								<li class="paginator__item">
+									<a href="#" class="paginator__link">4</a>
+								</li>
+								<li class="paginator__item">
+									<a href="#" class="paginator__link">5</a>
+								</li>
+								<li class="paginator__item">
+									<a href="#" class="paginator__link">6</a>
+								</li>
+								<li class="paginator__item">
+									<a href="#" class="paginator__link">7</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -151,23 +181,27 @@
 						<img src="./img/picture3.png" alt="" class="about__img">
 						<div class="about__content">
 							<h2 class="title">О нас</h2>
-							<p class="text about__text">
-								Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
-								менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных
-								выступлений в домашних условиях.
-							</p>
-							<a href="#" class="button">Подробнее</a>
+							<div class="text about__text">
+								<p>
+									Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев
+									более
+									менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык
+									публичных
+									выступлений в домашних условиях.
+								</p>
+							</div>
+							<a href="#" class="button button--border">Подробнее</a>
 						</div>
 					</div>
 				</section>
 			</main>
 		</div>
 		<footer class="footer">
-			<div class="container footer__container">
-				<a href="#" class="logo">
+			<div class="container footer__container footer__container--line">
+				<a href="#" class="logo logo--position">
 					<img class="logo__img" src="./img/logo.svg" alt="">
 				</a>
-				<nav class="menu">
+				<nav class="menu menu--position">
 					<ul class="menu__list">
 						<li class="menu__item">
 							<a href="#" class="menu__link">Главная</a>
@@ -181,28 +215,20 @@
 					</ul>
 				</nav>
 				<ul class="socials">
-					<li class="socials__item">
-						<a href="#" class="socials__link">
-							<img src="./img/telegram.png" alt="" class="socials__icon">
-						</a>
+					<li class="socials__item socials__item--icon--tg">
+						<a href="#" class="socials__link"></a>
 					</li>
-					<li class="socials__item">
-						<a href="#" class="socials__link">
-							<img src="./img/vk.png" alt="" class="socials__icon">
-						</a>
+					<li class="socials__item socials__item--icon--vk">
+						<a href="#" class="socials__link"></a>
 					</li>
-					<li class="socials__item">
-						<a href="#" class="socials__link">
-							<img src="./img/f.png" alt="" class="socials__icon">
-						</a>
+					<li class="socials__item socials__item--icon--fac">
+						<a href="#" class="socials__link"></a>
 					</li>
-					<li class="socials__item">
-						<a href="#" class="socials__link">
-							<img src="./img/in.png" alt="" class="socials__icon">
-						</a>
+					<li class="socials__item socials__item--icon--inst">
+						<a href="#" class="socials__link"></a>
 					</li>
 				</ul>
-				<address class="contacts">
+				<address class="contacts contacts--position">
 					<div class="contacts__add-information">Бесплатный звонок по России</div>
 					<a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
 				</address>
