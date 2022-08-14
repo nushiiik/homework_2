@@ -1,0 +1,46 @@
+.past-games {
+	margin-bottom: 145px;
+}
+.past-games__list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 54px;
+}
+.past-games__slide {
+	height: 394px;
+	margin-right: 2%;
+	flex: 1;
+}
+.slide {
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.slide__background {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.slide__content {
+	min-height: 142px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0 45px 17px 28px;
+}
+.slide__date {
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 11px;
+}
+.slide__title {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 5px;
+}
+.slide__text {
+	line-height: 21px;
+}

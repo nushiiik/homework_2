@@ -1,0 +1,16 @@
+.page-content {
+	min-height: 960px;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.page-content__list {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.page-content__container {
+	padding: 63px 0;
+}

@@ -1,0 +1,51 @@
+.footer__container {
+	height: 146px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.socials {
+	display: flex;
+	justify-content: space-between;
+	min-width: 174px;
+}
+.socials__item--icon--tg .socials__link {
+	background: url('../img/telegram.png')
+}
+.socials__item--icon--tg .socials__link:hover {
+	background: url('../img/telegram_h.png');
+}
+.socials__item--icon--vk .socials__link {
+	background: url('../img/vk.png')
+}
+.socials__item--icon--vk .socials__link:hover {
+	background: url('../img/vk_h.png');
+}
+.socials__item--icon--fac .socials__link {
+	background: url('../img/f.png')
+}
+.socials__item--icon--fac .socials__link:hover {
+	background: url('../img/f_h.png');
+}
+.socials__item--icon--inst .socials__link {
+	background: url('../img/in.png')
+}
+.socials__item--icon--inst .socials__link:hover {
+	background: url('../img/in_h.png');
+}
+.socials__link {
+	display: block;
+	width: 36px;
+	height: 36px;
+	background: center center no-repeat;
+}
+.contacts__add-information {
+	font-size: 11px;
+	color: #9A9A9A;
+	margin-bottom: 5px;
+}
+
+.footer__container--height {
+	height: 132px;
+}

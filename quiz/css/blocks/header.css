@@ -1,0 +1,38 @@
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+.logo {
+	width: 168px;
+	height: 27px;
+}
+.menu {
+	min-width: 391px;
+}
+.menu__list {
+	display: flex;
+	justify-content: space-around;
+}
+.menu__link {
+	font-size: 16px;
+}
+.menu__link:hover {
+	color: #8F00FF;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	font-style: normal;
+	line-height: 1.02;
+}
+.contacts__phone {
+	font-size: 26px;
+}
+.contacts__work-hours {
+	font-size: 13px;
+	text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.heading {
+	margin-bottom: 189px;
+}
+.heading__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	min-height: 480px;
+}
+.heading__text-section {
+	width: 60%;
+}
+.heading__title {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.08;
+	margin-bottom: 21px;
+}
+.heading__subtitle {
+	font-size: 21px;
+	line-height: 28.6px;
+	margin-bottom: 75px;
+}
