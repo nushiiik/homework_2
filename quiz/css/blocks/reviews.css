@@ -1,0 +1,14 @@
+.reviews {
+	background-color: #fff;
+}
+.reviews__container {
+	padding: 95px 0;
+}
+.reviews__list {
+	column-count: 2;
+	column-gap: 27px;
+	margin-bottom: 50px;
+}
+.reviews__item {
+	margin-bottom: 17px;
+}

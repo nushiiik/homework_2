@@ -4,6 +4,7 @@
 	text-transform: uppercase;
 	line-height: 19px;
 	border-radius: 5px;
+	color: #fff;
 	padding: 18px 39px;
 	font-weight: 700;
 	font-size: 14px;
@@ -37,4 +38,12 @@
 }
 .button--color:hover {
 	color: #fff;
+}
+.button--darkcolor {
+	background-color: #8E8E8E;
+	transition: background-color .3s,  box-shadow .3s;
+}
+.button--darkcolor:hover {
+	background-color: #2B2B2B;
+	box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
 }

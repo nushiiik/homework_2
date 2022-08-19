@@ -1,0 +1,18 @@
+.banner {
+	min-height: 363px;
+	background: #17191C url('../../img/people.png') right 10% bottom no-repeat;
+}
+.banner__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.banner__content {
+	max-width: 40%;
+}
+.banner__title {
+	font-size: 48px;
+	line-height: 65px;
+	font-weight: 700;
+	padding: 117px 0;
+}

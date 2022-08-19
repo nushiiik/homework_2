@@ -1,0 +1,15 @@
+.inner {
+	background-color: #F4F5F5;
+}
+.container {
+}
+.inner__container {
+	padding: 62px 0 96px;
+}
+.inner__title {
+	font-size: 48px;
+	line-height: 65px;
+	font-weight: 700;
+	color: #1A1B1E;
+	margin-bottom: 57px;
+}

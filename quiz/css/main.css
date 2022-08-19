@@ -10,11 +10,15 @@
 @import url('./blocks/about.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/top-line.css');
-@import url('./blocks/page-content.css');
+@import url('./blocks/games.css');
 @import url('./blocks/game.css');
 @import url('./blocks/partners.css');
-
-
+@import url('./blocks/hello.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/review.css');
+@import url('./blocks/banner.css');
+@import url('./blocks/inner.css');
+@import url('./blocks/form.css');
 
 
 

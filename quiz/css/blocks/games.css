@@ -1,0 +1,11 @@
+.games {
+	background-color: #FFF;
+}
+.games__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.games__container {
+	padding: 63px 0;
+}
