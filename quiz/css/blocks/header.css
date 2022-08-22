@@ -37,12 +37,24 @@
 	position: relative;
 	display: inline-block;
 }
+.dropdown__triangle {
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-bottom-color: #EDEDED;
+	border-top-width: 0;
+	position: absolute;
+	top: 100%;
+	right: -9999px;
+	opacity: 0;
+	transition: opacity .3s;
+}
 .dropdown__menu {
 	position: absolute;
 	background-color: #EDEDED;
 	width: 160px;
 	padding: 15px 19px;
-	margin-top: 7px;
+	margin-top: 10px;
 	border-radius: 5px;
 	top: 100%;
 	right: -9999px;
@@ -51,6 +63,10 @@
 }
 .dropdown:hover .dropdown__menu {
 	right: 0;
+	opacity: .8;
+}
+.dropdown:hover .dropdown__triangle {
+	right: 40px;
 	opacity: .8;
 }
 .dropdown__link {
